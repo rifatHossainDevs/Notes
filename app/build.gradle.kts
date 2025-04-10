@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.esports.noteapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.esports.noteapp"

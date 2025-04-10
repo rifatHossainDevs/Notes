@@ -10,7 +10,6 @@ import android.view.View
 import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
-import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.room.Room
@@ -61,7 +60,7 @@ class AddNoteActivity : AppCompatActivity() {
                 binding.etTitle.text = speechText[0]
             }
         }
-//gfdfgfd
+
         val db = Room.databaseBuilder(
             applicationContext,
             NoteDatabase::class.java,

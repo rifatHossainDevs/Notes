@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.esports.noteapp.databinding.ItemViewerBinding
 import com.esports.noteapp.db.Notes
 
-class NoteAdapter(private val listener: HandleClickListener,val notes: List<Notes>): RecyclerView.Adapter<NoteAdapter.ViewHolder>() {
+class NoteAdapter(private val listener: HandleClickListener, private val notes: List<Notes>): RecyclerView.Adapter<NoteAdapter.ViewHolder>() {
 
 
     interface HandleClickListener{
